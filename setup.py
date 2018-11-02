@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='wxbook',
     version='',
-    packages=['dao'],
+    packages=['dao', 'controller'],
     url='',
     license='',
     author='liubenqiang',
