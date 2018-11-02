@@ -8,7 +8,7 @@ robot = werobot.WeRoBot(token='ynlbq')
 def search_book(message):
     book_name = message.content
     book_set = BookSearcher.search_by_book_name(book_name)
-    return book_set[0] + '\n' + book_set[1] + '\n' + book_set[2]
+    return str(book_set)
 
 
 robot.config['HOST'] = '0.0.0.0'
