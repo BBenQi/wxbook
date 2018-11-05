@@ -1,5 +1,7 @@
 README.md
 setup.py
+controller/__init__.py
+controller/wx_handler.py
 dao/__init__.py
 dao/book_search.py
 dao/mysql_connector.py

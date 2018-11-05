@@ -28,4 +28,4 @@ class BookSearcher:
         return cursor.fetchall()
 
 
-# print(BookSearcher.search_by_type('武侠'))
+print(str(BookSearcher.search_by_book_name('挪威的森林')))
